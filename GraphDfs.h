@@ -24,6 +24,8 @@ public:
 		_buildTopologicalOrder();
 	}
 	~GraphDfs() {}
+	GraphDfs(const GraphDfs& from) = delete;
+	GraphDfs& operator=(const GraphDfs& from) = delete;
 private:
 	Graph& _g;
 	const char* _t;
