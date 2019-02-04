@@ -2,7 +2,7 @@
 This is an assignment where Graph.h / Graph.cpp & GraphTest.cpp were given by professor:
 - Build the Graph: undirected/ undirected weighted / directed / directed weighted
 - Build a dot file for pictorial representation of this graph
-- Traverse the graph using DFS, to find the topological graph & return if cycle is found
+- Traverse the graph using DFS, to find the topological graph & detect cycle if present
 
 Following are the files I have added or edited:
 - GraphBuilder.h & GraphBuilder.cpp : This will create nodes & edges to build a graph
