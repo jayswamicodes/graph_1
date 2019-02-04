@@ -24,6 +24,8 @@ public:
 		_buildGraph();
 	}
 	~GraphBuilder() {}
+	GraphBuilder(const GraphBuilder& from) = delete;
+	GraphBuilder& operator=(const GraphBuilder& from) = delete;
 private:
 	Graph& _g;
 	const vector<string> _s;
